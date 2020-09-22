@@ -13,12 +13,18 @@ PowerMTA是功能强大的MTA软件（SMTP），用于通过Internet发送电子
 
 
 开始安装：
-1、![image.png](https://upload-images.jianshu.io/upload_images/1677613-3ecee73f45573131.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-      这里有五个选项，123都是网页前端，不需要的话可以选择5，这里我们使用前端Mumara.
+
+1、
+![image.png](https://upload-images.jianshu.io/upload_images/1677613-3ecee73f45573131.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+这里有五个选项，123都是网页前端，不需要的话可以选择5，这里我们使用前端Mumara.
+
 2、输入许可证之后会让你输入你的域名
+
 3、接着安装脚本的指示输入提示信息然后等待自动安装就可以了。
 
 ![QQ截图20200922201212.png](https://upload-images.jianshu.io/upload_images/1677613-3577f8f5853fe1ae.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 这样就算是安装完成了，接下就是把dkim，spf这些配置到域名dns就可以了。
 
 ![QQ123.png](https://upload-images.jianshu.io/upload_images/1677613-112a402cfc37b7da.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -28,7 +34,8 @@ PowerMTA是功能强大的MTA软件（SMTP），用于通过Internet发送电子
 测试发件：
 
 1、我们先使用smtp软件测试发送。
-  ![123.png](https://upload-images.jianshu.io/upload_images/1677613-bb8196c0b5482806.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![123.png](https://upload-images.jianshu.io/upload_images/1677613-bb8196c0b5482806.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 显示发送成功，来自我们搭建的邮箱和域名。
 
